@@ -5,7 +5,7 @@ janela.geometry('400x400')
 janela.configure(bg="#202020")
 
 textvisor = tk.StringVar()
-visor = tk.Entry(janela, textvariable=textvisor)
+visor = tk.Entry(janela, textvariable=textvisor, font=('Arial', 24))
 visor.grid(row=0, column=0, columnspan=4, padx=10, pady=10, sticky="nsew")
 contaatual = ""
 
